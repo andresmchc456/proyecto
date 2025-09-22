@@ -41,12 +41,28 @@ html, body {
   color: white;
 }
 
-
-
 /* estilos del body */
- .bg-cosmos {
+ .bg-Aura {
     background-color: #2e3137 !important;
   }
-  .text-cosmos {
+  .text-Aura {
     color: #ffffff !important;
+  }
+
+/* Efecto hover en los items del dropdown */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #7FFFD4;
+  color: black; /* opcional para que el texto contraste */
+}
+
+/* stilos botones  */
+.btn-primary {
+    background-color: #7FFFD4;
+    border-color: #7FFFD4;
+    color: black;
+  }
+  .btn-primary:hover {
+    background-color: #6EE4C6;
+    border-color: #6EE4C6;
+    color: black;
   }
