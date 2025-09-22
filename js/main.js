@@ -9,3 +9,4 @@ async function cargarModulo(url, contenedorId) {
 // Cargar el módulo hola.html en el contenedor con id ''
 cargarModulo('vistas/home.html', 'home');
 cargarModulo('inc/barraNavegacion.html', 'barraNavegacion');
+cargarModulo('vistas/saludo.html', 'saludo');
