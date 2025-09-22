@@ -1,0 +1,52 @@
+/* Hacemos que body use flex y ocupe toda la altura */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #2e3137;
+  color: white;
+}
+
+/* Header */
+.header-custom {
+  background-color: #000000; /* negro */
+  padding: 15px 0;
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #000000; /* negro */
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: auto; /* <-- empuja el footer abajo */
+}
+
+/* Header de tabla */
+.table thead th {
+  height: 50px;
+  vertical-align: middle;
+  font-size: 14px;
+  background-color: #1f2126;
+  color: white;
+}
+
+/* Footer de tabla */
+.table tfoot th,
+.table tfoot td {
+  height: 40px;
+  vertical-align: middle;
+  font-size: 13px;
+  background-color: #1f2126;
+  color: white;
+}
+
+
+
+/* estilos del body */
+ .bg-cosmos {
+    background-color: #2e3137 !important;
+  }
+  .text-cosmos {
+    color: #ffffff !important;
+  }
