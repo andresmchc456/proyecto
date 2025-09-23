@@ -52,7 +52,15 @@ html, body {
 /* Efecto hover en los items del dropdown */
 .dropdown-menu .dropdown-item:hover {
   background-color: #7FFFD4;
-  color: black; /* opcional para que el texto contraste */
+  color: black;
+}
+
+/* Efecto hover en el botón principal del dropdown */
+.nav-item .nav-link.dropdown-toggle:hover,
+.nav-item .nav-link:hover {
+  background-color: #7FFFD4;
+  color: black;
+  border-radius: 5px;
 }
 
 /* stilos botones  */
