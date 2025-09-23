@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #2e3137;
+  background-color: #212529 ;/*AZIL*/
   color: white;
 }
 
@@ -73,4 +73,29 @@ html, body {
     background-color: #6EE4C6;
     border-color: #6EE4C6;
     color: black;
+  }
+
+  /*ESTILOS PAGINADOR*/
+ .pagination {
+  background-color: #2e3137; /* Fondo del contenedor */
+  border-radius: 0.375rem;   /* Bordes redondeados opcionales */
+  padding: 0.5rem;           /* Un poco de espacio interno */
+}
+
+.page-link {
+  background-color: #2e3137; /* Fondo de cada número */
+  color: #fff;               /* Texto blanco */
+  border: 1px solid #444;    /* Borde gris */
+}
+
+.page-link:hover {
+  background-color: #7FFFD4; /* Color hover */
+  color: black;
+}
+ .page-link:hover {
+  background-color: #7FFFD4 !important;
+  color: black !important;
+}
+.bg-custom {
+    background-color: #212529 !important;
   }

@@ -10,3 +10,4 @@ async function cargarModulo(url, contenedorId) {
 cargarModulo('vistas/home.html', 'home');
 cargarModulo('inc/barraNavegacion.html', 'barraNavegacion');
 cargarModulo('vistas/saludo.html', 'saludo');
+cargarModulo('vistas/paginador.html', 'paginador');
