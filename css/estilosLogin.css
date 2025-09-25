@@ -1,0 +1,7 @@
+.barra-logo {
+  padding-left: 0;       /* Elimina padding del contenedor */
+}
+
+.barra-logo .navbar-brand {
+  margin-left: 0;        /* Asegura que el logo esté en el borde */
+}
